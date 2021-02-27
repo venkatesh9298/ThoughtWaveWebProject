@@ -52,12 +52,10 @@ img {
 }
 
 /* Position the "next button" to the right */
-
 .next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
-
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -100,12 +98,11 @@ img {
 	background-color: #717171;
 }
 
-
 .fade {
 	-webkit-animation-name: fade;
-	-webkit-animation-duration: 50s;
+	-webkit-animation-duration: 1000s;
 	animation-name: fade;
-	animation-duration: 50s;
+	animation-duration: 1000s;
 }
 
 @-webkit-keyframes fade {
@@ -146,14 +143,14 @@ to {
 				<li class="dropdown"><a class="dropdown-toggle"
 					data-toggle="dropdown" href="#">AboutUs <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">AboutThoughtwave</a></li>
-						<li><a href="#">WhyThoughtwave</a></li>
-						<li><a href="#">OurTeam</a></li>
+						<li><a href="about.html">AboutThoughtwave</a></li>
+						<li><a href="why.html">WhyThoughtwave</a></li>
+						<li><a href="our.html">OurTeam</a></li>
 					</ul></li>
-				<li><a href="#">Carrers</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">News</a></li>
-				<li><a href="#">Sign in </a></li>
+				<li><a href="carrers.html">Carrers</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="signIn.html">Sign in </a></li>
 			</ul>
 		</div>
 	</nav>
@@ -167,14 +164,14 @@ to {
 
 		<div class="mySlides fade">
 			<div class="numbertext">2 / 3</div>
-			<img src="images\pic2.jpg" style="width:100%">
+			<img src="images\pic2.jpg" style="width: 100%">
 			<div class="text">Web Development</div>
 		</div>
 
 		<div class="mySlides fade">
 			<div class="numbertext">3 / 3</div>
-			<img src="images\pic3.png" style="width:100%">
-			<div class="text">It Staffing</div>
+			<img src="images\pic3.png" style="width: 100%">
+			<div class="text">It Staffing & Services</div>
 		</div>
 
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next"
@@ -221,5 +218,70 @@ to {
 			dots[slideIndex - 1].className += " active";
 		}
 	</script>
+	<br>
+	<div class="media">
+		<div class="media-left media-top">
+			<img src="images\pic1.png" class="media-object" style="width: 150px">
+		</div>
+		<div class="media-body">
+			<h4 class="media-heading">Cloud Migration</h4>
+			<p>Cloud migration is the process of moving digital business
+				operations into the cloud. Cloud migration is sort of like a
+				physical move, except it involves moving data, applications, and IT
+				processes from some data centers to other data centers, instead of
+				packing up and moving physical goods. Much like a move from a
+				smaller office to a larger one, cloud migration requires quite a lot
+				of preparation and advance work, but usually it ends up being worth
+				the effort, resulting in cost savings and greater flexibility.</p>
+		</div>
+	</div>
+	<hr>
+	<div class="media">
+		<div class="media-left media-middle">
+			<img src="images\pic2.jpg" class="media-object" style="width: 150px">
+		</div>
+		<div class="media-body">
+			<h4 class="media-heading">Web Development</h4>
+			<p>Web development is the work involved in developing a Web site
+				for the Internet or an intranet. Web development can range from
+				developing a simple single static page of plain text to complex
+				Web-based Internet applications, electronic businesses, and social
+				network services.</p>
+		</div>
+	</div>
+	<hr>
+	<div class="media">
+		<div class="media-left media-bottom">
+			<img src="images\pic3.png" class="media-object" style="width: 150px">
+		</div>
+		<div class="media-body">
+			<h4 class="media-heading">It Staffing & Services</h4>
+			<p>IT Staffing is one of the outsourcing strategies where the
+				service contributor provides skilled staff to the client and helps
+				the client in achieving business objectives. IT Staffing is an
+				efficient way to get highly qualified and specialized Personnel at a
+				substantially low cost</p>
+		</div>
+	</div>
+	<br>
+	</div>
+	
+	<pre>
+	<h3>  Global Presence                         Contact Information </h3>
+	                                             
+    Springdale, Wisconsin, USA                                                314 N. Lake St, Suite 6                      
+    Austin, Texas, USA                                                        Aurora, IL - 60506
+    Hyderabad, Telangana, India                                               Phone: 630-448-6681
+    Visakhapatnam, Andhra Pradesh, India                                      Fax: 630-689-5746              
+    Bengaluru, Karnataka, India                                               Email: info@thoughtwavesoft.com
+    Challapalli, Andhra Pradesh, India
+    </pre>
+
+
+	
+	
+	</div>
+	<footer style="border:10px solid black;background-color:black;text-align:center;outline:10px;margin:0px 0px 10px 0px">@ThoughtwaveSoft.com</footer>
+
 </body>
 </html>
